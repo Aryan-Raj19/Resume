@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resume.css">
+    <link rel="shortcut icon" href="2021-02-02-03-50-38-474.jpg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Contact Me | Aryan Raj</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img src="2021-02-02-03-50-38-474.jpg" alt=""></div>
+            <a href="resume.html">
+                <h5>AryanRaj</h5>
+            </a>
+            <div class="nav">
+                <li><a href="resume.html">Home</a></li>
+                <li><a href="ContactMe.html">Contact Me</a></li>
+            </div>
+        </nav>
+    </header>
+
+    <div>
+        <h1><span class="welcome"></span></h1>
+    </div>
+
+    <div class="container">
+        <div class="box"> <img src="https://s3.envato.com/files/261073186/code_2_img.jpg" alt=""></div>
+    </div>
+    <hr>
+
+    <div class="form-box">
+        <div class="form">
+            <p>Enter Your Details</p>
+            <form action="form.php">
+                <div class="name details">
+                    Enter Name -
+                    <input type="text" placeholder="Enter Name" required>
+                </div>
+                <div class="dob details">
+                    Enter DOB -
+                    <input type="date" min="1900-01-01" max="2100-12-31" required>
+                </div>
+                <div class="phone details">
+                    Enter Phone No. -
+                    <input type="tel" pattern="[0-9]{10}" max="10" placeholder="+91" required>
+                </div>
+                <div class="mail details">
+                    Enter E-Mail -
+                    <input type="email" placeholder="Enter Mail" required>
+                </div>
+            </form>
+            <div class="submit">
+                <button>Submit</button>
+                <button>Not now</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="general-info">
+        <p style="padding-top: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Accusamus sunt voluptas obcaecati alias, libero similique.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+            veniam quod nam ullam minus. Pariatur dolorem a quisquam placeat culpa!</p>
+    </div>
+
+    <footer>
+        <p>Copyright &copy Aryan Raj 2022</p>
+        <div class="acc">
+            <a href="https://www.facebook.com/profile.php?id=100008983568996">
+                <img src="https://freepngimg.com/download/facebook/62588-and-icons-facebook-computer-black-logo-white.png"
+                    alt=""></a>
+            <a href="https://www.instagram.com/aryanraj_19715/">
+                <img src="https://www.clipartmax.com/png/middle/174-1749125_instagramm-clipart-instergram-black-instagram-logo-png.png"
+                    alt=""></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var type = new Typed(".welcome", {
+            strings: ["Hii... I'm Aryan Raj", " Welcome to My Site"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+    </script>
+
+</body>
+
+</html>
